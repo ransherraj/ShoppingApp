@@ -1,0 +1,154 @@
+
+.active {
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.card-button {
+    border-radius: 0px;
+}
+
+/* .grow { 
+    transition: all .2s ease-in-out; 
+    opacity: 80%;
+}
+    
+.grow:hover { 
+    transform: scale(1); 
+} */
+.hoverable:hover{
+    transform: scale(1.05);
+    transition: all .2s ease-in-out; 
+}
+
+.lihover:hover{
+  background-color: #23a6d5;
+  transition: all .2s ease-in-out; 
+  border-radius: 5px;
+}
+
+.descriptionFont{
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+
+/* Css jumbotron */
+
+.jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+   
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+   
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+   
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+
+  /* Card styling */
+
+.productCard {
+    
+    box-shadow: 0 0 6px rgb(42, 36, 36);
+    object-fit: cover;
+    flex: 0 0 25%; /* each card will be 25% width */
+
+}
+
+.productImg {
+    grid-auto-flow: column;
+    max-width: 210px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+/* Ant checkbox wrapper
+ */
+
+
+ .ant-checkbox-wrapper:first-of-type{
+  margin-left: 8px;
+ }
+
+
+ .radioButton{
+  padding-left: 8px;
+ }
+
+
+ .lihover:hover{
+
+  background-color: #23a6d5;
+  
+ }
+
+
+
+ .test{
+  background-color: #bec2c4;
+ }
+
+ .hoverUserLink{
+  background-color: #13d9f7;
+ }
+
+ .hoverUserLink:hover{
+  background-color: #a4dcef;
+  transition: all .5s ease-in-out; 
+ }
+
+ .gif{
+  height:100px;
+  width: 100%;
+  
+ }

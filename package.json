@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "braintree": "^3.13.0",
+    "braintree-web-drop-in-react": "^1.2.1",
+    "moment": "^2.29.4",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.6.2",
+    "react-social-icons": "^5.15.0"
+  }
+}
